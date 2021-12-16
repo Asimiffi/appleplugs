@@ -1,0 +1,115 @@
+html{
+    overflow-x: hidden;
+}
+
+#vision{
+    height: auto;
+    width: 100%;
+}
+#vision p{
+    font-family: myriad-pro sans-serif;
+    font-size: 18px;
+}
+
+#vision h4{
+    font-size: 42px;
+    font-weight: 300;
+}
+.image-container{
+    overflow: hidden;
+}
+.picture-2{
+    width: 40rem;
+    overflow: hidden;
+}
+
+#design{
+    position: relative;
+    height: 110vh;
+    width: 100%;
+}
+#design p{
+    font-family: myriad-pro sans-serif;
+    font-size: 18px;
+}
+
+#design h4{
+    font-size: 42px;
+    font-weight: 300;
+}
+.design-image1{
+    position: absolute;
+    left: 65%;
+    top: 10%;
+    height: auto !important;
+    max-width: 16%!important;
+}
+.design-image2{
+    position: absolute;
+    left: 55%;
+    top: 40%;
+    max-width: 14% !important;
+    height: auto !important;
+}
+.design-image3{
+    position: absolute;
+    left: 65%;
+    top: 70%;
+    max-width: 14% !important;
+    height: auto !important;
+}
+#innovation p{
+    font-family: myriad-pro sans-serif;
+    font-size: 18px;
+}
+
+#innovation h4{
+    font-size: 42px;
+    font-weight: 300;
+}
+
+.innovation-image{
+    width: 80%;
+    height: auto;
+
+}
+#trust p{
+    font-size: 28px;
+    font-family: myriad-pro sans-serif;
+}
+
+#precision p{
+    font-size: 2rem;   
+}
+.precision-image{
+    max-width: 50%;
+    object-fit: cover;
+    background: cover;
+}
+
+#footer{
+    background: #EEEEEE;
+}
+#footer p{
+    font-family: myriad-pro sans-serif;
+    font-size: 18px;
+}
+
+#footer h3{
+    font-size: 42px;
+    font-weight: 300;
+}
+@media only screen and (max-width: 700px) {
+
+    .design-images {
+      display: none;
+    }
+    #design{
+        height: 70vh;
+        align-items: center;
+        display: flex;
+    }
+    #vision .image-container{
+        display: none !important;
+    }
+  }
